@@ -24,4 +24,5 @@ def divide(x,y):
         return x/y
 
 
-main()
+if __name__ == "__main__":
+    main()
