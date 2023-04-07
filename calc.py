@@ -4,6 +4,9 @@ def main():
     x = int(input("x > "))
     y = int(input("y > "))
     
+    print("%d / %d = %0.3f" % (x, y, add(x, y)))
+    print("%d / %d = %0.3f" % (x, y, sub(x, y)))
+    print("%d / %d = %0.3f" % (x, y, multipy(x, y)))
     print("%d / %d = %0.3f" % (x, y, divide(x, y)))
 
 def add(a, b):
